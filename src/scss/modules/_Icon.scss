@@ -1,0 +1,54 @@
+.Icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+
+    // Size sub-modules
+    &--lg {
+        font-size: 2rem;
+    }
+
+    &--xl {
+        font-size: 4rem;
+    }
+
+    // Color sub-modules
+    &--reverse {
+        color: $color-mono-100;
+    }
+
+    &--primary {
+        color: $color-primary;
+    }
+
+    &--secondary {
+        color: $color-secondary;
+    }
+
+    &--tertiary {
+        color: $color-tertiary;
+    }
+
+    // Additional sub-modules
+
+    &--circle {
+        padding: .25em;
+        border-radius: 50%;
+        background-color: currentColor;
+        font-size: ($icon * $icon-circle);
+        overflow: visible;
+
+        &.Icon--lg {
+            font-size: ($icon-lg * $icon-circle);
+        }
+
+        &.Icon--xl {
+            font-size: ($icon-xl * $icon-circle);
+        }
+
+        use {
+            color: $color-mono-100;
+        }
+    }
+}

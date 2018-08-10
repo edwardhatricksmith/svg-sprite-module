@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #2f3640; }
+
+body {
+  margin: 0;
+  background-color: #f5f6fa; }
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 1.5em; }
+
+.Icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle; }
+  .Icon--lg {
+    font-size: 2rem; }
+  .Icon--xl {
+    font-size: 4rem; }
+  .Icon--reverse {
+    color: #f5f6fa; }
+  .Icon--primary {
+    color: #273c75; }
+  .Icon--secondary {
+    color: #c23616; }
+  .Icon--tertiary {
+    color: #e1b12c; }
+  .Icon--circle {
+    padding: .25em;
+    border-radius: 50%;
+    background-color: currentColor;
+    font-size: 2.25rem;
+    overflow: visible; }
+    .Icon--circle.Icon--lg {
+      font-size: 3.75rem; }
+    .Icon--circle.Icon--xl {
+      font-size: 6rem; }
+    .Icon--circle use {
+      color: #f5f6fa; }
+
+.Callout {
+  padding: 2rem 3rem;
+  border-radius: .5rem;
+  background-color: #dcdde1; }
+
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 6rem auto;
+  padding-right: 2rem;
+  padding-left: 2rem; }
+
+.section {
+  margin-bottom: 2rem; }
+
+.is-hidden {
+  display: none; }
