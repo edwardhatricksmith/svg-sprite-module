@@ -3,8 +3,8 @@ A modular, automated approach to creating SVG sprites
 
 ## Requirements
 
-* Node and NPM
-* The Gulp CLI
+* [Node](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/get-npm)
+* The [Gulp CLI](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md)
 
 ## Get started
 
